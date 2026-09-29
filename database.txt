@@ -1,0 +1,16 @@
+create database scrape;
+use scrape;
+
+create table register(username varchar(30) primary key,
+password varchar(30),
+contact varchar(12),
+email varchar(30),
+address varchar(40));
+
+create table search(query varchar(200),
+name varchar(500),
+reviews varchar(100),
+ratings varchar(100),
+address varchar(300),
+description varchar(600),
+url varchar(200));
